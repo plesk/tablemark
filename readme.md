@@ -1,14 +1,16 @@
-# tablemark &middot; [![Version](https://flat.badgen.net/npm/v/tablemark)](https://www.npmjs.com/package/tablemark) [![License](https://flat.badgen.net/npm/license/tablemark)](https://www.npmjs.com/package/tablemark) [![Travis CI](https://flat.badgen.net/travis/citycide/tablemark)](https://travis-ci.org/citycide/tablemark) [![JavaScript Standard Style](https://flat.badgen.net/badge/code%20style/standard/green)](https://standardjs.com)
+# tablemark 
 
 > Generate markdown tables from JSON data.
 
 Parses arrays of objects into markdown tables, complete with configuration
 for renaming columns and left, center, or right-aligning them.
 
+This is a patched version of [citycide/tablemark](https://github.com/citycide/tablemark) library which can be used in NX/React/ReduxToolkit/TypeScript stack. 
+
 ## installation
 
 ```sh
-yarn add tablemark
+yarn add @plesk-tools/tablemark
 ```
 
 ## usage
