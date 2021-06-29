@@ -1,6 +1,5 @@
 'use strict'
 
-const { EOL } = require('os')
 const sentence = require('sentence-case')
 const split = require('split-text-to-chunks')
 
@@ -8,6 +7,8 @@ const { width } = split
 const columnsWidthMin = 5
 const alignmentOptions = new Set(['LEFT', 'CENTER', 'RIGHT'])
 const pipeRegex = /\|/g
+
+const EOL = "\n";
 
 const pad = (alignment, width, what) => {
   if (!alignment || alignment === 'LEFT') {
